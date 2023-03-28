@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<!--<script type="text/javascript" src="/js/js.js" defer></script>-->
+<header class="site-header">
+    <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
+                </a>
+                <div class="mobil-menu">
+                    <a href="#navegacion">
+                        <img src="img/barras.svg" alt="Icono menu">
+                    </a>
+                </div>
+
+                <nav id="navegacion" class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contanto</a>
+                </nav>
+            </div> <!-- barra navegacion-->
+       
+    </div> <!-- el contenedor-->
+</header>
+
+<h1 class="fw-300 centrar-texto">Hipoteca</h1>
+<img src="img/destacada5.jpg" alt="Foto Propiedad">
+
+<main class="contenedor seccion contenido-centrado">
+<h2 class="fw-300 centrar-texto">Calculo de Hipoteca</h2>
+
+<form id="formulario-hipoteca">
+    <div class="campo">
+      <label for="precio">Precio de la Casa:</label>
+      <input type="number" id="precio" placeholder="Ingresa el Precio de la Casa" required>
+    </div>
+    <div class="campo">
+      <label for="enganche">Enganche:</label>
+      <input type="number" id="enganche" placeholder="Ingresa el Enganche" required>
+    </div>
+    <div class="campo">
+      <label for="plazo">Plazo en Años:</label>
+      <input type="number" id="plazo" placeholder="Ingresa el Plazo en Años" required>
+    </div>
+    <div class="campo">
+      <label for="tasa">Tasa de Interés Anual:</label>
+      <input type="number" id="tasa" placeholder="Ingresa la Tasa de Interés Anual" required>
+    </div>
+    <div class="campo">
+      <label for="pago-mensual">Pago Mensual:</label>
+      <input type="text" id="pago-mensual" readonly>
+    </div>
+    <div class="campo">
+      <label for="total-pago">Total a Pagar:</label>
+      <input type="text" id="total-pago" readonly>
+    </div>
+    <button type="button" id="calcular-hipoteca">Calcular Hipoteca</button>
+  </form>
+  <script type="text/javascript" src="/js/js.js" defer></script>
+<a href="/index.html" class="boton boton-verde">Volver</a>
+
+</main>
+
+<footer class="site-footer seccion">
+<div class="contenedor contenedor-footer">
+    <nav class="navegacion">
+        <a href="nosotros.html">Nosotros</a>
+        <a href="anuncios.html">Anuncios</a>
+        <a href="blog.html">Blog</a>
+        <a href="contacto.html">Contanto</a>
+    </nav>
+    <p class="copyrigth">Todos los Derechos Reservados 2023 &copy; </p>
+</div>
+</footer>
+</body>
+</html>
